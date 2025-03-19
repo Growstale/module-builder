@@ -1,0 +1,25 @@
+/* App.css */
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.catalog {
+  width: 200px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.main-screen {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+  minHeight: 400px; /* Важно! */
+  border: 2px dashed #ccc;
+}
+
+.properties-screen {
+  width: 200px;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+}
